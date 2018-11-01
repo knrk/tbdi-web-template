@@ -1,5 +1,6 @@
 # Distribution Files
 app/**
+tools/**
 tmp/**
 backups/**
 wp-config.php
