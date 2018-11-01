@@ -1,0 +1,23 @@
+/**
+ * Editor styles for the admin
+ */
+.tbdi-image-text {
+	form {
+		display: flex;
+		align-items: center;
+	}
+
+	h3.tbdi-image-text-title {
+		line-height: 32px;
+		margin-left: 0;
+	}
+	p.tbdi-image-text-content,
+	a.tbdi-image-text-link {
+		margin-left: 0;
+	}
+
+	button img {
+		max-width: 300px;
+		max-height: 350px;
+	}
+}

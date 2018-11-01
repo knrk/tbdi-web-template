@@ -1,0 +1,16 @@
+/**
+ * Editor styles for the admin
+ */
+.swux-card {
+	button.components-button {
+		svg {
+			pointer-events: none;
+		}
+	}
+
+	.editor-rich-text {
+		p {
+			text-align: center;
+		}
+	}
+}

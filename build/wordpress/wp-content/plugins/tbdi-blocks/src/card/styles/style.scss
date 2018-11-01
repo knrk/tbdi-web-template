@@ -1,0 +1,38 @@
+/**
+ * Loads on front end and back end
+ */
+
+ .swux-card {
+	box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.1);
+	background-color: var(--card-bg-color);
+	padding: 32px 38px;
+	margin: 0 32px 32px 0;
+	max-width: 548px;
+	min-height: 290px;
+
+	> button,
+	img, {
+		min-width: 64px;
+		max-width: 80px;
+		margin: 0 auto;
+		display: flex;
+	}
+
+	h3.swux-card-title {
+		font-size: 24px;
+		font-weight: 700;
+		letter-spacing: 0.2px;
+		display: flex;
+		justify-content: center;
+		margin: 16px auto;
+		text-align: center;
+
+		+ p {
+			font-size: 18px;
+			line-height: 30px;
+			color: var(--card-text-color);
+			text-align: center;
+			margin: 0;
+		}
+	}
+}

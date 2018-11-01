@@ -1,0 +1,23 @@
+/**
+ * CTA styles
+ * Loads on front end and back end
+ */
+.grid-container {
+	display: grid;
+	
+	&.col-2 {
+		grid-template-columns: repeat(2, auto);
+	}
+	&.col-3 {
+		grid-template-columns: repeat(3, auto);
+	}
+	&.col-4 {
+		grid-template-columns: repeat(auto-fill, minmax(315px, auto));
+	}
+
+	&.full-width.col-4 {
+		padding: 0px 40px 100px;
+		grid-gap: 32px;
+		justify-content: center;
+	}
+}

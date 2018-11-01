@@ -1,0 +1,86 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+:root {
+    --anim-speed: 650ms;
+    --header-height: 90px;
+    --subheader-height: 64px;
+    --header-decoration-height: 8px;
+    --page-vmargin: 40px;
+    --page-default-lmargin: 340px;
+    --page-default-rmargin: 110px;
+    --page-default-bmargin: 50px;
+    --page-content-width: 665px;
+
+    /* --- */
+    --white: hsla(0, 0%, 100%, 1);
+    --mine-shaft: #292929;
+    --dusty-gray: #999;
+    --gray-chateau: #9fa3a7;
+    --dove-gray: #666;
+    --athens-gray: #F2F3F6;
+    --tundora: #444;
+    --gallery: #eaeaea;
+    --silver: #ccc;
+    --silver-chalice: #a1a1a1;
+    --wild-sand: #f6f6f6;
+    --chenin: hsla(62%, 65%, 63%, 1);
+    --egg-blue: #04c9d7;
+    --deep-cerulean: #0079aa;
+    --energy-yellow: #fbe04b;
+
+    --text-color: var(--tundora);
+    --link-color: var(--egg-blue);
+
+    --nav-bg-color: var(--mine-shaft);
+    --nav-minor-text-color: var(--silver);
+    --nav-text-color: var(--silver);
+    --nav-text-hover-color: var(--white);
+    --nav-text-active-color: var(--egg-blue);
+    --nav-decoration-bg-color: var(--silver);
+
+    --article-bg-color: var(--wild-sand);
+    --article-header-bg-color: var(--wild-sand);
+    --article-navigation-bg-color: var(--white);
+    --article-h1-text-color: var(--egg-blue);
+    --article-h6-text-color: var(--silver-chalice);
+
+    --nav-secondary-text-color: var(--dusty-gray);
+    --nav-secondary-current-text-color: var(--tundora);
+
+    --profile-avatar-border-color: var(--energy-yellow);
+    --profile-name-text-color: var(--mine-shaft);
+    --profile-title-text-color: var(--dusty-gray);
+    --profile-role-text-color: var(--tundora);
+    --profile-role-bg-color: var(--energy-yellow);
+    --profile-bio-text-color: var(--dove-gray);
+    --profile-separator-border-color: var(--gallery);
+    --profile-separator-decoration-bg-color: var(--egg-blue);
+
+    --image-caption-text-color: var(--dusty-gray);
+
+    --button-bg-color: var(--egg-blue);
+    --button-text-color: var(--white);
+
+    --divider: var(--gallery);
+    --divider-bg-color: var(--egg-blue);
+    --divider-counter-text-color: var(--athens-gray);
+    --related-article-bg-color: var(--energy-yellow);
+
+    --card-bg-color: var(--white);
+    --card-text-color: var(--dove-gray);
+
+    --user-voice-size: 64px;
+    --user-voice-role-text-color: var(--egg-blue);
+
+    --case-study-intro-subtitle-text-color: var(--silver-chalice);
+    --case-study-intro-link-text-color: var(--egg-blue);
+    --case-study-intro-decoration-bg-color: var(--tundora);
+}
+
+.edit-post-visual-editor p {
+    font-family: "Roboto", sans-serif;
+}

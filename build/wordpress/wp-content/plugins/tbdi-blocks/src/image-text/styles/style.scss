@@ -1,0 +1,33 @@
+/**
+ * Loads on front end and back end
+ */
+.swux-image-text {
+	padding: 0 0 50px 0;
+	max-width: 450px;
+	display: flex;
+	min-height: 250px;
+	
+	img {
+		margin: 0 25px 25px 0;
+		align-self: flex-start;
+	}
+
+	h3.swux-image-text-title {		
+		font-size: 36px;
+		font-weight: 300;
+		margin-top: 0;
+	}
+	p.swux-image-text-content,
+	a.swux-image-text-link {
+		line-height: 24px;
+	}
+
+	p.swux-image-text-content {
+		color: var(--dove-gray);
+	}
+
+	a.swux-image-text-link {
+		color: var(--egg-blue);
+		font-weight: 500;
+	}
+}
